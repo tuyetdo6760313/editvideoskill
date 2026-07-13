@@ -1,0 +1,22 @@
+# secrets — never commit
+.env
+.env.*
+*.key
+*apikey*
+*api_key*
+
+# outputs / temp artifacts
+*.mp4
+*.mov
+*.mp3
+*.wav
+frames/
+_frames_tmp/
+__pycache__/
+*.pyc
+*.png
+!assets/*.png
+
+# OS
+.DS_Store
+Thumbs.db
